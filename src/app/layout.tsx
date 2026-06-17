@@ -30,10 +30,11 @@ const faviconPath =
   process.env.NODE_ENV === "production" ? "/favicon" : "/favicon/dev";
 export const metadata: Metadata = {
   title: {
-    template: "%s - Clever Fuel",
-    default: "Clever Fuel",
+    template: "%s - CLEVER FUEL Lab",
+    default: "CLEVER FUEL Lab",
   },
-  description: "Clever Fuel",
+  description:
+    "A safe, affordable hydrogen resource to produce biofuels. Advanced catalysts for H₂-free hydrodeoxygenation.",
   metadataBase: new URL("https://vortico.tech"),
   alternates: {
     canonical: "/",
@@ -42,8 +43,9 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_EN",
     url: "/",
-    title: "Clever Fuel",
-    description: "Clever Fuel",
+    title: "CLEVER FUEL Lab",
+    description:
+      "A safe, affordable hydrogen resource to produce biofuels. Advanced catalysts for H₂-free hydrodeoxygenation.",
     siteName: "vortico.tech",
   },
   icons: {

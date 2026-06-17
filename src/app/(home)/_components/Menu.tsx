@@ -1,24 +1,28 @@
-import Link from 'next/link'
+import Link from "next/link";
 
 interface Item {
-  title: string
-  href: string
+  title: string;
+  href: string;
 }
 
 const items: Item[] = [
   {
-    title: 'Project',
-    href: '/',
+    title: "Project",
+    href: "/",
   },
   {
-    title: 'Team',
-    href: '/team/',
+    title: "Team",
+    href: "/team/",
   },
   {
-    title: 'News & Events',
-    href: '/news/',
+    title: "News & Events",
+    href: "/news/",
   },
-]
+  {
+    title: "Contact",
+    href: "/contact/",
+  },
+];
 
 export default function Menu() {
   return (
@@ -35,5 +39,5 @@ export default function Menu() {
         ))}
       </ul>
     </nav>
-  )
+  );
 }
