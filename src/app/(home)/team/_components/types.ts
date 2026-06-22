@@ -1,13 +1,6 @@
-import { type ReactElement } from "react";
-
-export interface Member {
+export interface GroupMember {
   name: string;
-  role: string;
-  description: ReactElement;
-}
-
-export interface Alumnus {
-  name: string;
-  thesis: string;
+  description: string;
   year: number;
+  image?: string;
 }

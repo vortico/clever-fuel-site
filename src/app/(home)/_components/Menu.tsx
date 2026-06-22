@@ -8,7 +8,7 @@ interface Item {
 const items: Item[] = [
   {
     title: "Project",
-    href: "/",
+    href: "/project/",
   },
   {
     title: "Team",
