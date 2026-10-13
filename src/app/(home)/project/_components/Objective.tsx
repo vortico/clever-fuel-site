@@ -14,6 +14,15 @@ export default function Section() {
           compounds in the biofuel and biochemical industries — via the design of
           advanced catalysts for the H₂-free hydrodeoxygenation (HDO) process.
         </p>
+        <figure className="mt-8">
+  <img
+    src="/images/project/Obj1.jpg"
+    alt="Overview of the CLEVER-FUEL project"
+    width={1051}
+    height={1008}
+    className="mx-auto w-full max-w-2xl"
+  />
+</figure>
         <p>
           This ground-breaking route takes the edge over current biomass
           upgrading approaches, which rely on high-pressure hydrogen — an
@@ -47,6 +56,15 @@ export default function Section() {
           research and offering catalytic solutions to big societal challenges in
           the pursuit of a low-carbon future.
         </p>
+        <figure className="mt-8">
+  <img
+    src="/images/project/Obj2.jpg"
+    alt="Overview of the CLEVER-FUEL work packages"
+    width={1600}
+    height={669}
+    className="mx-auto w-full max-w-3xl"
+  />
+</figure>
       </div>
     </>
   );
