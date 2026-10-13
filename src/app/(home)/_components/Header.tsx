@@ -6,11 +6,11 @@ export default function Header() {
     <header className="flex h-full w-full items-center justify-between gap-4">
       <Link href="/">
         <Image
-          width={614}
-          height={212}
+          width={2172}
+          height={724}
           src="/images/home/CleverFuel.png"
           alt="CLEVER FUEL Lab"
-          className="h-12 w-auto md:h-14"
+          className="h-12 w-auto md:h-26"
         />
       </Link>
       <Link href="https://erc.europa.eu/">
