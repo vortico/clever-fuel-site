@@ -18,6 +18,20 @@ const publications: string[] = [
 
 const group: GroupMember[] = [
   {
+    name: "Ali Goksu",
+    description:
+      "Tuning the CO2 adsorption, catalytic activity and site proximity on dual function materials to unlock new chemical synthesis pathways",
+    year: 2026,
+    image: "/images/team/Ali.jpg",
+  },
+   {
+    name: "Silvia Parrilla Lahoz",
+    description:
+      "Upcycling Laundering-Derived Textile Microfibres into Carbon Materials via Thermochemical Processes",
+    year: 2026,
+    image: "/images/team/Silvia.jpg",
+  },
+  {
     name: "Juan Luis Martín Espejo",
     description:
       "Design of advanced catalysts and new strategies for biogas reforming",
@@ -147,8 +161,8 @@ export default async function Page() {
                 is the editor of 3 textbooks for RSC, Wiley and Elsevier.
               </p>
               <p>
-                Prof. Reina has supervised 30+ MSc/MEng and 17 PhD projects (6
-                ongoing), and is presently mentoring several postdoctoral
+                Prof. Reina has supervised 30+ MSc/MEng and 20 PhD projects (9
+                ongoing), and he is presently mentoring several postdoctoral
                 researchers and junior academics. He has participated as PI/Co-I
                 on multiple projects in the area of energy, materials and
                 sustainable chemical technologies sponsored by institutions such
