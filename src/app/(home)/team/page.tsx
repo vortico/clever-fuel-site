@@ -107,7 +107,20 @@ export default async function Page() {
             the Materials Science Institute (University of Seville–CSIC), within
             SURFCAT. Detailed profiles of our PhD students and researchers are
             coming soon.
+
           </p>
+        </div >
+        <div className="mt-6">
+        <figure>
+          <img
+            src="/images/team/team.jpg"
+            alt= "The next generation of fuel researchers"
+            width={971}
+            height={669}
+            className="max-w-xl mx-auto"
+          />
+          <figcaption>The next generation of fuel researchers</figcaption>
+        </figure>
         </div>
       </header>
       <section className="mb-8 space-y-8 pt-8 sm:mb-10 sm:space-y-10 sm:pt-10 md:mb-12 md:space-y-12 md:pt-12">
